@@ -1,4 +1,4 @@
-function findMostCommonWords(text, numberOfWords = 5) {
+function findMostCommonWords(text, numberOfWords = 3) {
 	const wordFrequency = {};
 	const words = text.toLowerCase().match(/[a-z0-9]+(?:'[a-z0-9]+)*/g) || [];
 
